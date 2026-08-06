@@ -23,4 +23,10 @@
   --color-success: #3FAE6B;
   --color-warning: #E5B04E;
   --color-danger: #E5594E;
+
+  /* Fonts */
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
 }

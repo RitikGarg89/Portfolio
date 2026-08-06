@@ -8,7 +8,7 @@ function BrowserChrome({ url, children }) {
         >
             {/* Title bar */}
             <div
-                className="flex items-center gap-3 px-4 py-2.5 bg-[#f5f5f3] border border-b-[#E4E3DD]"
+                className="flex items-center gap-3 px-4 py-2.5 bg-[#f5f5f3] border-b border-[#E4E3DD] rounded-t-xl"
             >
                 <TrafficLights />
                 {/* URL bar */}
