@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Surface */
+  --color-bg: #FBFBF9;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #EAF3EE;
+
+  /* Text */
+  --color-text-primary: #14171B;
+  --color-text-secondary: #52565C;
+  --color-text-muted: #8A8D91;
+
+  /* Border */
+  --color-border: #E4E3DD;
+
+  /* Brand */
+  --color-primary: #1B8A5A;
+  --color-primary-dark: #0F5C3B;
+  --color-primary-light: #EAF3EE;
+
+  /* Status */
+  --color-success: #3FAE6B;
+  --color-warning: #E5B04E;
+  --color-danger: #E5594E;
+}
