@@ -3,30 +3,12 @@ import SectionLabel from "./SectionLabel"
 function Experience() {
     const experience = [
         {
-            role: 'Frontend Developer Intern',
-            company: 'Webstack Technologies',
-            dates: 'Jun 2024 – Sep 2024',
+            role: 'Data Analytics Intern',
+            company: 'Skilledup Technologies Pvt. Ltd.',
+            dates: 'Jun 2025 – Aug 2025',
             bullets: [
-                'Built reusable React component library adopted across three internal products, cutting UI development time by ~35%.',
-                'Migrated a legacy jQuery dashboard to React + TypeScript with no downtime during the transition.',
-            ],
-        },
-        {
-            role: 'Data Analyst Intern',
-            company: 'DataBridge Solutions',
-            dates: 'Jan 2024 – Apr 2024',
-            bullets: [
-                'Automated weekly reporting pipeline using Python (Pandas, openpyxl), saving ~8 hours of manual work per week.',
-                'Created interactive Power BI dashboards for operations and sales teams, improving decision latency.',
-            ],
-        },
-        {
-            role: 'Freelance Web Developer',
-            company: 'Self-employed',
-            dates: '2022 – 2023',
-            bullets: [
-                'Delivered five client websites using HTML/CSS/JS and WordPress, all scoring 90+ on Lighthouse performance.',
-                'Introduced Git-based workflows and staging environments to clients previously working without version control.',
+                'Contributed to data analytics projects using Python, SQL Workbench, Google BigQuery, and Power BI.',
+                'Applied strong analytical skills to consistently support team objectives and deliver quality project outcomes.',
             ],
         },
     ]
@@ -51,7 +33,7 @@ function Experience() {
                             <div key={i} className="sm:pl-10 relative">
                                 {/* Dot */}
                                 <div
-                                    className="absolute left-0 top-[6px] w-[11px] h-[11px] rounded-full hidden sm:block bg-primary border-2 border-bg ring-2 ring-border"
+                                    className="absolute left-0 top-1.5 w-2.75 h-2.75 rounded-full hidden sm:block bg-primary border-2 border-bg ring-2 ring-border"
                                 />
 
                                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">

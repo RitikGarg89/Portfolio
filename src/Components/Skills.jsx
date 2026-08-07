@@ -5,19 +5,19 @@ function Skills() {
     const skillCategories = [
         {
             label: 'Languages',
-            skills: ['JavaScript', 'TypeScript', 'Python', 'SQL', 'HTML', 'CSS'],
+            skills: ['Python', 'C++', 'JavaScript', 'Java', 'PHP'],
         },
         {
             label: 'Web Development',
-            skills: ['React', 'Next.js', 'Tailwind CSS', 'Vite', 'REST APIs', 'Git'],
+            skills: ['HTML', 'CSS', 'React.js', 'Node.js'],
         },
         {
             label: 'Database & Data',
-            skills: ['MySQL', 'PostgreSQL', 'Pandas', 'NumPy', 'Jupyter', 'Power BI'],
+            skills: ['MySQL', 'MongoDB', 'Google BigQuery', 'Power BI'],
         },
         {
             label: 'Tools & Platforms',
-            skills: ['GitHub', 'VS Code', 'Figma', 'Vercel', 'Linux', 'Postman'],
+            skills: ['Git', 'GitHub', 'Postman', 'Vercel'],
         },
     ]
 

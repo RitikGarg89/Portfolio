@@ -31,8 +31,8 @@ function Hero() {
                     {/* Left */}
                     <div>
                         {/* Badge */}
-                        <div className="inline-flex items-center gap-2 px-3 py-[5px] rounded-full mb-8 bg-primary-light border border-[#d0e8da]">
-                            <span className="w-[7px] h-[7px] rounded-full inline-block animate-pulse bg-primary" />
+                        <div className="inline-flex items-center gap-2 px-3 py-1.25 rounded-full mb-8 bg-primary-light border border-[#d0e8da]">
+                            <span className="w-1.75 h-1.75 rounded-full inline-block animate-pulse bg-primary" />
                             <span className="font-mono text-xs text-primary-dark">
                                 Open to frontend roles
                             </span>
@@ -51,7 +51,7 @@ function Hero() {
                         <div className="flex flex-wrap gap-3">
                             <a
                                 href="#projects"
-                                className="inline-flex items-center gap-2 px-5 py-[11px] rounded-lg text-sm font-medium transition-all duration-500 hover:opacity-90 hover:bg-primary active:scale-[0.98] bg-text-primary text-bg font-body"
+                                className="inline-flex items-center gap-2 px-5 py-2.75 rounded-lg text-sm font-medium transition-all duration-500 hover:opacity-90 hover:bg-primary active:scale-[0.98] bg-text-primary text-bg font-body"
                             >
                                 View projects
                                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -60,7 +60,7 @@ function Hero() {
                             </a>
                             <a
                                 href="#contact"
-                                className="inline-flex items-center px-5 py-[11px] rounded-lg text-sm font-medium transition-all duration-150 hover:bg-primary-dark hover:text-primary-light active:scale-[0.98] border border-border text-text-primary font-body"
+                                className="inline-flex items-center px-5 py-2.75 rounded-lg text-sm font-medium transition-all duration-150 hover:bg-primary-dark hover:text-primary-light active:scale-[0.98] border border-border text-text-primary font-body"
                             >
                                 Get in touch
                             </a>
