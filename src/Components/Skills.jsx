@@ -38,8 +38,7 @@ function Skills() {
                             className="p-6 rounded-xl bg-surface border border-border"
                         >
                             <p
-                                className="mb-4"
-                                style={{ fontFamily: 'IBM Plex Mono', fontSize: '11px', color: '#8A8D91', letterSpacing: '0.1em', textTransform: 'uppercase', fontWeight: 500 }}
+                                className="mb-4 font-body text-md text-text-muted tracking-widest uppercase font-medium"
                             >
                                 {cat.label}
                             </p>
